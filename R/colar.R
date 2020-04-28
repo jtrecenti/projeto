@@ -1,4 +1,3 @@
-
 #' Cola x e y
 #'
 #' Recebe x e y e retorna eles colados
@@ -10,5 +9,5 @@
 #'
 #' @export
 colar <- function(x, y) {
-  paste(x, y)
+  paste0(x, y)
 }
